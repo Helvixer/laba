@@ -41,7 +41,9 @@ dependencies {
     implementation("io.github.jan-tennert.supabase:storage-kt")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.2.2")
     implementation("io.ktor:ktor-client-cio:2.3.4")
+    implementation ("org.jetbrains.kotlinx:kotlinx-datetime:0.3.2")
 
+    implementation("androidx.cardview:cardview:1.0.0  ")
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.8.0")

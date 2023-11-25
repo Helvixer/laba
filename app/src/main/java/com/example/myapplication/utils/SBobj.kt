@@ -8,9 +8,9 @@ import io.github.jan.supabase.storage.Storage
 
 object SBobj {
     private var client = createSupabaseClient(
-        supabaseUrl = "https://sqrerppgkdgwjqprutgz.supabase.co",
+        supabaseUrl = "https://iwovebmcintyfhxaikbv.supabase.co",
 
-        supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNxcmVycHBna2Rnd2pxcHJ1dGd6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTU3MjM5NTAsImV4cCI6MjAxMTI5OTk1MH0.5THfzTq00a32NMZiC-Hqt0KNWlBNBQi1wRjxXZmsLKs"
+        supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Iml3b3ZlYm1jaW50eWZoeGFpa2J2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDA5MTUyNTUsImV4cCI6MjAxNjQ5MTI1NX0.3gNfpYr6YEtsupulyOZE7sx4BzOujQmeQ6OHGngHegE"
     ) {
         install(GoTrue)
         install(Postgrest)
